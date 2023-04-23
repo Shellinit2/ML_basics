@@ -1,0 +1,6 @@
+ it finds the areas of the dataset where the probability density function is the highest and clusters 
+ the data points in those areas together.
+ 
+ The algorithm assign the feature vectors to the clusters iteratively by shifting points towards the 
+ highest density of feature points in region.
+Mean-shift algorithm has so many fields. One of them are image processing and computer vision.

@@ -1,0 +1,29 @@
+The FP-Growth Algorithm is an alternative way to find frequent item sets without using candidate generations, thus improving performance. For so much, it uses a divide-and-conquer strategy. The core of this method is the usage of a special data structure named frequent-pattern tree (FP-tree), which retains the item set association information.
+
+This algorithm works as follows:
+
+1.First, it compresses the input database creating an FP-tree instance to represent frequent items.
+2.After this first step, it divides the compressed database into a set of conditional databases, each associated with one frequent pattern.
+3.Finally, each such database is mined separately.
+
+
+
+
+The frequent-pattern tree (FP-tree) is a compact data structure that stores quantitative information about frequent patterns in a database. Each transaction is read and then mapped onto a path in the FP-tree. This is done until all transactions have been read. Different transactions with common subsets allow the tree to remain compact because their paths overlap.
+
+A frequent Pattern Tree is made with the initial item sets of the database. The purpose of the FP tree is to mine the most frequent pattern. Each node of the FP tree represents an item of the item set.
+
+The root node represents null, while the lower nodes represent the item sets. The associations of the nodes with the lower nodes, that is, the item sets with the other item sets, are maintained while forming the tree.
+
+Han defines the FP-tree as the tree structure given below:
+
+1.One root is labelled as "null" with a set of item-prefix subtrees as children and a frequent-item-  
+  header table.
+2.Each node in the item-prefix subtree consists of three fields:
+  a)Item-name: registers which item is represented by the node;
+  b)Count: the number of transactions represented by the portion of the path reaching the node;
+  c)Node-link: links to the next node in the FP-tree carrying the same item name or null if there is 
+    none.
+3.Each entry in the frequent-item-header table consists of two fields:
+  a)Item-name: as the same to the node;
+  b)Head of node-link: a pointer to the first node in the FP-tree carrying the item name.

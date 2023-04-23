@@ -1,0 +1,5 @@
+Gaussian Naïve Bayes
+
+Multinomial Naïve Bayes
+
+Bernoulli Naïve Bayes

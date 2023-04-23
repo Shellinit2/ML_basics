@@ -1,0 +1,2 @@
+eclat is just a simpler version of apriori where only Support value is used, which shows how frequent 
+a set of itmes occur.

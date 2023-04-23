@@ -1,0 +1,9 @@
+Association rule mining finds interesting associations and relationships among large sets of data 
+items. This rule shows how frequently a itemset occurs in a transaction. A typical example is a Market 
+Based Analysis.
+
+Market Based Analysis is one of the key techniques used by large relations to show associations 
+between items.It allows retailers to identify relationships between the items that people buy together 
+frequently.
+
+https://www.kaggle.com/code/sangwookchn/association-rule-learning-with-scikit-learn/notebook

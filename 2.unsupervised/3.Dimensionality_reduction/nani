@@ -1,0 +1,13 @@
+Space required to store the data is reduced as the number of dimensions comes down
+
+
+Less dimensions lead to less computation/training time
+
+
+Some algorithms do not perform well when we have a large dimensions. So reducing these dimensions needs to happen for the algorithm to be useful
+
+
+It takes care of multicollinearity by removing redundant features. For example, you have two variables — ‘time spent on treadmill in minutes’ and ‘calories burnt’. These variables are highly correlated as the more time you spend running on a treadmill, the more calories you will burn. Hence, there is no point in storing both as just one of them does what you require
+
+
+It helps in visualizing data. As discussed earlier, it is very difficult to visualize data in higher dimensions so reducing our space to 2D or 3D may allow us to plot and observe patterns more clearly

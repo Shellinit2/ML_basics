@@ -1,0 +1,6 @@
+Linear Regression is used in many industries such as Epidemiology, Finance 
+and Economics. However, despite being used in all these areas it does have 
+some flaws that makes it’s predictions redundant in certain applications. Imagine you are a phone operator and want to predict how many calls you will receive in a day. Do you think Linear Regression would be a suitable model? The answer is NO for the following reasons:
+
+The number of calls have to be greater or equal to 0, whereas in Linear Regression the output can be negative as well as positive.
+The number of calls only take integer values but Linear Regression can output fractional values.

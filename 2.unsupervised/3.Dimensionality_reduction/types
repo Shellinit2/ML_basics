@@ -1,0 +1,24 @@
+1. Missing Value Ratio
+2.Low Variance Filter
+3.High Correlation Filter
+4.Random Forest
+5.Backward Feature Elimination
+6.Forward Feature Selection
+7.Factor Analysis
+8.Principal Component Analysis
+9.Independent Component Analysis
+10.Methods Based on Projections
+11. t-Distributed Stochastic Neighbor Embedding (t-SNE)
+12.UMAP
+
+1.Missing Value Ratio: If the dataset has too many missing values, we use this approach to reduce the number of variables. We can drop the variables having a large number of missing values in them
+2.Low Variance filter: We apply this approach to identify and drop constant variables from the dataset. The target variable is not unduly affected by variables with low variance, and hence these variables can be safely dropped
+3.High Correlation filter: A pair of variables having high correlation increases multicollinearity in the dataset. So, we can use this technique to find highly correlated features and drop them accordingly
+4.Random Forest: This is one of the most commonly used techniques which tells us the importance of each feature present in the dataset. We can find the importance of each feature and keep the top most features, resulting in     dimensionality reduction
+4.Both Backward Feature Elimination and Forward Feature Selection techniques take a lot of computational time and are thus generally used on smaller datasets
+5.Factor Analysis: This technique is best suited for situations where we have highly correlated set of variables. It divides the variables based on their correlation into different groups, and represents each group with a factor
+6.Principal Component Analysis: This is one of the most widely used techniques for dealing with linear data. It divides the data into a set of components which try to explain as much variance as possible
+7.Independent Component Analysis: We can use ICA to transform the data into independent components which describe the data using less number of components
+8.ISOMAP: We use this technique when the data is strongly non-linear
+9.t-SNE: This technique also works well when the data is strongly non-linear. It works extremely well for visualizations as well
+10.UMAP: This technique works well for high dimensional data. Its run-time is shorter as compared to t-SNE

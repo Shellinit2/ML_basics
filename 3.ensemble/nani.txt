@@ -1,0 +1,8 @@
+Ensemble learning is a general meta approach to machine learning that seeks better predictive performance by combining the predictions from multiple models.
+
+The three main classes of ensemble learning methods are bagging, stacking, and boosting.
+
+
+1.Bagging involves fitting many decision trees on different samples of the same dataset and averaging the predictions.
+2.Stacking involves fitting many different models types on the same data and using another model to learn how to best combine the predictions.
+3.Boosting involves adding ensemble members sequentially that correct the predictions made by prior models and outputs a weighted average of the predictions.
